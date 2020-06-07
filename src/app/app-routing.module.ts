@@ -12,8 +12,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'cart-page',
-    loadChildren: () => import('./pages/cart-page/cart-page.module').then( m => m.CartPagePageModule)
+    path: 'cart-modal',
+    loadChildren: () => import('./pages/cart-modal/cart-modal.module').then( m => m.CartModalPageModule)
   },
 ];
 
