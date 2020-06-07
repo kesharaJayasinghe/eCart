@@ -1,0 +1,7 @@
+{
+  "name": "eCart",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
